@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA3BC8BF-E860-4BA9-8396-E8BC908BF973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fake.Detection.Telegram.Client.Api", "src\Fake.Detection.Telegram.Client.Api\Fake.Detection.Telegram.Client.Api.csproj", "{383451E0-E6E5-4496-9ED9-33D507A0859F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fake.Detection.Telegram.Client.Bll", "src\Fake.Detection.Telegram.Client.Bll\Fake.Detection.Telegram.Client.Bll.csproj", "{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fake.Detection.Telegram.Client.Integration", "src\Fake.Detection.Telegram.Client.Integration\Fake.Detection.Telegram.Client.Integration.csproj", "{F8EA9313-4186-4B94-A82C-5DB9392782DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{4C4500E6-97FE-4730-8F36-5043DA56C35B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		.gitignore = .gitignore
+		README.md = README.md
+		telegramclient.pfx = telegramclient.pfx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{383451E0-E6E5-4496-9ED9-33D507A0859F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383451E0-E6E5-4496-9ED9-33D507A0859F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383451E0-E6E5-4496-9ED9-33D507A0859F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383451E0-E6E5-4496-9ED9-33D507A0859F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EA9313-4186-4B94-A82C-5DB9392782DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EA9313-4186-4B94-A82C-5DB9392782DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EA9313-4186-4B94-A82C-5DB9392782DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EA9313-4186-4B94-A82C-5DB9392782DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{383451E0-E6E5-4496-9ED9-33D507A0859F} = {FA3BC8BF-E860-4BA9-8396-E8BC908BF973}
+		{F36FFB71-34AD-4D74-BB31-B50CCCA7D6B9} = {FA3BC8BF-E860-4BA9-8396-E8BC908BF973}
+		{F8EA9313-4186-4B94-A82C-5DB9392782DA} = {FA3BC8BF-E860-4BA9-8396-E8BC908BF973}
+	EndGlobalSection
+EndGlobal

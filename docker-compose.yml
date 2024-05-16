@@ -1,0 +1,17 @@
+version: "3"
+services:
+  fake.detection.telegram.client.api:
+    image: fake-tg-client
+    build:
+      context: .
+      dockerfile: src/Fake.Detection.Telegram.Client.Api/Dockerfile
+    ports:
+      - "5176:5176"
+      - "7176:7176"
+    restart: always
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true
